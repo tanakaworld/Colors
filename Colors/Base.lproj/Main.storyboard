@@ -26,6 +26,7 @@
                                 </state>
                                 <connections>
                                     <action selector="startColors:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M5g-eK-Oqm"/>
+                                    <segue destination="Fxe-pV-RJU" kind="show" id="OBb-bW-wYN"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colors !!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oCn-IC-BeR">

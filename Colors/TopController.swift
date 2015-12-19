@@ -13,11 +13,14 @@ class TopController: UIViewController, UIPageViewControllerDataSource {
     var pageViewController: UIPageViewController!
     var pageTitles: NSArray!
     var pageIndexes: NSArray!
+    var colors: Array<UIColor>!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // TODO Extract to Color Objects
         self.pageTitles = NSArray(objects: "Red", "Blue", "Green", "Yellow", "Black")
+        self.colors = [UIColor.redColor(), UIColor.blueColor(), UIColor.greenColor(), UIColor.yellowColor(), UIColor.blackColor()]
         
         self.pageViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ColorPageViewController") as! UIPageViewController
         
@@ -57,6 +60,7 @@ class TopController: UIViewController, UIPageViewControllerDataSource {
         
         vc.titleText = self.pageTitles[index] as! String
         vc.pageIndex = index
+        vc.view.backgroundColor = self.colors[index]
         
         return vc
     }
