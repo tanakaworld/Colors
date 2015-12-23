@@ -11,8 +11,9 @@
 		DB1C7DA91C2557B600B28971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1C7DA71C2557B600B28971 /* Main.storyboard */; };
 		DB1C7DAB1C2557B600B28971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1C7DAA1C2557B600B28971 /* Assets.xcassets */; };
 		DB1C7DAE1C2557B600B28971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1C7DAC1C2557B600B28971 /* LaunchScreen.storyboard */; };
-		DB1C7DB61C255A1100B28971 /* TopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1C7DB51C255A1100B28971 /* TopController.swift */; };
+		DB1C7DB61C255A1100B28971 /* ColorTopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1C7DB51C255A1100B28971 /* ColorTopController.swift */; };
 		DB1C7DBC1C25609B00B28971 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1C7DBB1C25609B00B28971 /* ColorViewController.swift */; };
+		DBC55E481C2A8238005F6BE5 /* TopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC55E471C2A8238005F6BE5 /* TopController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +23,9 @@
 		DB1C7DAA1C2557B600B28971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB1C7DAD1C2557B600B28971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB1C7DAF1C2557B600B28971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB1C7DB51C255A1100B28971 /* TopController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopController.swift; sourceTree = "<group>"; };
+		DB1C7DB51C255A1100B28971 /* ColorTopController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorTopController.swift; sourceTree = "<group>"; };
 		DB1C7DBB1C25609B00B28971 /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		DBC55E471C2A8238005F6BE5 /* TopController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,9 @@
 				DB1C7DAA1C2557B600B28971 /* Assets.xcassets */,
 				DB1C7DAC1C2557B600B28971 /* LaunchScreen.storyboard */,
 				DB1C7DAF1C2557B600B28971 /* Info.plist */,
-				DB1C7DB51C255A1100B28971 /* TopController.swift */,
+				DB1C7DB51C255A1100B28971 /* ColorTopController.swift */,
 				DB1C7DBB1C25609B00B28971 /* ColorViewController.swift */,
+				DBC55E471C2A8238005F6BE5 /* TopController.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB1C7DB61C255A1100B28971 /* TopController.swift in Sources */,
+				DB1C7DB61C255A1100B28971 /* ColorTopController.swift in Sources */,
+				DBC55E481C2A8238005F6BE5 /* TopController.swift in Sources */,
 				DB1C7DBC1C25609B00B28971 /* ColorViewController.swift in Sources */,
 				DB1C7DA41C2557B600B28971 /* AppDelegate.swift in Sources */,
 			);
@@ -289,6 +293,7 @@
 				DB1C7DB41C2557B600B28971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
