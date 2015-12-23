@@ -13,6 +13,7 @@
 		DB1C7DAE1C2557B600B28971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1C7DAC1C2557B600B28971 /* LaunchScreen.storyboard */; };
 		DB1C7DB61C255A1100B28971 /* ColorTopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1C7DB51C255A1100B28971 /* ColorTopController.swift */; };
 		DB1C7DBC1C25609B00B28971 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1C7DBB1C25609B00B28971 /* ColorViewController.swift */; };
+		DB76D18B1C2A9F2F0043738B /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76D18A1C2A9F2F0043738B /* UIColor.swift */; };
 		DBC55E481C2A8238005F6BE5 /* TopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC55E471C2A8238005F6BE5 /* TopController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		DB1C7DAF1C2557B600B28971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB1C7DB51C255A1100B28971 /* ColorTopController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorTopController.swift; sourceTree = "<group>"; };
 		DB1C7DBB1C25609B00B28971 /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		DB76D18A1C2A9F2F0043738B /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = lib/UIColor.swift; sourceTree = "<group>"; };
 		DBC55E471C2A8238005F6BE5 /* TopController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +60,7 @@
 		DB1C7DA21C2557B600B28971 /* Colors */ = {
 			isa = PBXGroup;
 			children = (
+				DB76D18C1C2A9F350043738B /* lib */,
 				DB1C7DA31C2557B600B28971 /* AppDelegate.swift */,
 				DB1C7DA71C2557B600B28971 /* Main.storyboard */,
 				DB1C7DAA1C2557B600B28971 /* Assets.xcassets */,
@@ -68,6 +71,14 @@
 				DBC55E471C2A8238005F6BE5 /* TopController.swift */,
 			);
 			path = Colors;
+			sourceTree = "<group>";
+		};
+		DB76D18C1C2A9F350043738B /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DB76D18A1C2A9F2F0043738B /* UIColor.swift */,
+			);
+			name = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 				DBC55E481C2A8238005F6BE5 /* TopController.swift in Sources */,
 				DB1C7DBC1C25609B00B28971 /* ColorViewController.swift in Sources */,
 				DB1C7DA41C2557B600B28971 /* AppDelegate.swift in Sources */,
+				DB76D18B1C2A9F2F0043738B /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

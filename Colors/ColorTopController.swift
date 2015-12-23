@@ -19,8 +19,50 @@ class ColorTopController: UIViewController, UIPageViewControllerDataSource {
         super.viewDidLoad()
         
         // TODO Extract to Color Objects
-        self.pageTitles = ["Red", "Blue", "Green", "Yellow", "Black"]
-        self.colors = [UIColor.redColor(), UIColor.blueColor(), UIColor.greenColor(), UIColor.yellowColor(), UIColor.blackColor()]
+        self.pageTitles = [
+            "TURQUOISE",
+            "EMERALD",
+            "PETER RIVER",
+            "AMETHYST",
+            "WET ASPHALT",
+            "GREEN SEA",
+            "NEPHRITIS",
+            "BELIZE HOLE",
+            "WISTERIA",
+            "MIDNIGHT BLUE",
+            "SUN FLOWER",
+            "CARROT",
+            "ALIZARIN",
+            "CLOUDS",
+            "CONCRETE",
+            "ORANGE",
+            "PUMPKIN",
+            "POMEGRANATE",
+            "SILVER",
+            "ASBESTOS"
+        ]
+        self.colors = [
+            UIColor.hexStr("#1abc9c", alpha: 1),
+            UIColor.hexStr("#2ecc71", alpha: 1),
+            UIColor.hexStr("#3498db", alpha: 1),
+            UIColor.hexStr("#9b59b6", alpha: 1),
+            UIColor.hexStr("#34495e", alpha: 1),
+            UIColor.hexStr("#16a085", alpha: 1),
+            UIColor.hexStr("#27ae60", alpha: 1),
+            UIColor.hexStr("#2980b9", alpha: 1),
+            UIColor.hexStr("#8e44ad", alpha: 1),
+            UIColor.hexStr("#2c3e50", alpha: 1),
+            UIColor.hexStr("#f1c40f", alpha: 1),
+            UIColor.hexStr("#e67e22", alpha: 1),
+            UIColor.hexStr("#e74c3c", alpha: 1),
+            UIColor.hexStr("#ecf0f1", alpha: 1),
+            UIColor.hexStr("#95a5a6", alpha: 1),
+            UIColor.hexStr("#f39c12", alpha: 1),
+            UIColor.hexStr("#d35400", alpha: 1),
+            UIColor.hexStr("#c0392b", alpha: 1),
+            UIColor.hexStr("#bdc3c7", alpha: 1),
+            UIColor.hexStr("#7f8c8d", alpha: 1)
+        ]
         
         self.pageViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ColorPageViewController") as! UIPageViewController
         
