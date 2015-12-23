@@ -28,8 +28,6 @@ class ColorTopController: UIViewController, UIPageViewControllerDataSource {
         
         self.initStartView()
         
-        self.pageViewController.view.frame = CGRectMake(0, 30, self.view.frame.width, self.view.frame.size.height - 60)
-        
         self.addChildViewController(self.pageViewController)
         self.view.addSubview(self.pageViewController.view)
         self.pageViewController.didMoveToParentViewController(self)
